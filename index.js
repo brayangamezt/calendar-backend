@@ -25,6 +25,6 @@ app.use( '/api/events', require('./routes/events'));
 
 //Escuchar peticiones
 app.listen( process.env.PORT, ()=>{
-    console.log('servidor corriendo en el puerto 2023');
+    console.log(`El servidor esta corriendo en el puerto: ${process.env.PORT}`);
 });
 
